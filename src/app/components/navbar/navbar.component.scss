@@ -1,0 +1,30 @@
+.main-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: blueviolet;
+
+  .logo{
+    margin-left: 100px;
+    width: 100px;
+    height: 50px;
+
+  }
+  .menu-container{
+    margin-right: 100px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    .items:hover{
+      cursor:pointer
+    }
+    .active{
+      background-color: blue;
+      color:white;
+    }
+  }
+  
+}

@@ -1,0 +1,5 @@
+<div *ngFor="let project of projects; let i = index " class="project">
+  <h3>{{project.projectName}}</h3>
+  <button (click)="btnClick(i)">Go to this project</button><br>
+  <p>{{project.description}}</p><br>
+</div>
